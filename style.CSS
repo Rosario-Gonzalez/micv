@@ -1,0 +1,236 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+.nav-enlace{
+    display: inline-block;
+    background-color: hotpink;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.nav-enlace:hover{
+    background-color: rgb(187, 132, 212);
+}
+
+nav{
+    background-color:#505285;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-textos {
+    width: 97%;
+    margin: auto;
+    padding: 0px 0 80px 0;
+    
+}
+
+.contenedor-1, .contendor-2, .contenedor-3, .contenedor-4, .contenedor-5, .contenedor-6, .conrenedor-7, h1 {
+    padding: 40px 0;
+}
+
+p, ul{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: normal;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 55px;
+    margin-top: 65px;
+
+    
+    
+}
+h2{
+    background-color: #505285;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+   
+}
+img{
+    position: relative;
+    margin-left: 245px;
+    margin-top: 60px;
+}
+p, ul{ 
+    line-height: 3,5; 
+    font-size: 15pt;
+    color: #fff;
+ }
+ h3{
+    color: #fff;
+    font-size: 17pt;
+ }
+ .conrenedor-7{
+    display: flex;
+    
+ }
+article{
+    position: relative;
+    left: 260px;
+ }
+ 
+.uno{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 400px;
+    margin-left: 0px;
+    
+ }
+ .dos{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 315px;
+    right: 75px;
+    margin-left: 0px;
+ }
+ .tres{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 230px;
+    right: 160px;
+    margin-left: 0px;
+ }
+.mail{
+    position: relative;
+    margin-bottom: 155px;
+    right: 260px;
+    margin-left: 0px;
+}
+
+iframe{
+    position: relative;
+    margin-bottom: 150px;
+    right: 250px;
+}
+.skills-bar{
+    padding: 40px 0;
+    padding: 10px 0px;
+    margin-bottom: -10px;
+    line-height: 3,6; 
+    font-size: 15pt;
+    color: #fff;
+}
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+.skills-bar .bar .info{
+    margin-bottom: 5px;
+}
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500px;
+}
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 500px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    
+}
+.bar .progress-line span{
+    height: 100%;
+    width: 88%;
+    background: #6665ee;
+    position: absolute;
+   border-radius: 10px;
+
+}
+.progress-line.Reaper span{
+    width: 95%;
+}
+.progress-line.Photpshop span{
+    width: 90%;
+}
+.progress-line.Ilustrator span{
+    width: 95%;
+}
+.progress-line.Premier span{
+    width: 90%;
+}
+.progress-line.HTML span{
+    width: 80%;
+}
+.progress-line.CSS span{
+    width: 75%;
+}
+.progress-line.Java span{
+    width: 40%;
+}
+.bar .progress-line span::before{
+    position: absolute;
+    content:"" ;
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+}
+.bar .progress-line span::after{
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius:3px ;
+}
+.progress-line.Reaper span::after{
+    content: "95%";
+}
+.progress-line.Photpshop span::after{
+    content: "90%";
+}
+.progress-line.Ilustrator span::after{
+    content: "95%";
+}
+.progress-line.Premier span::after{
+    content: "90%";
+}
+.progress-line.HTML span::after{
+    content: "80%";
+}
+.progress-line.CSS span::after{
+    content: "75%";
+}
+.progress-line.Java span::after{
+    content: "40%";
+}
+.conrenedor-7{
+    margin-top: -800;
+}
+.boton{
+    position: relative;
+    text-align: left;
+    width: 100%;
+    margin-top: -155px;
+    margin-bottom: 100px;
+}
